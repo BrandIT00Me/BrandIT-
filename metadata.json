@@ -1,0 +1,6 @@
+{
+  "name": "BrandIT",
+  "description": "Digital creative, scriptwriting, content production, media studio, and business growth platform for BrandIT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

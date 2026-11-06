@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Glowing prism outer hexagon / faceted creative crystal -->
+    <path
+        android:pathData="M100,20 L165,58 L165,134 L100,172 L35,134 L35,58 Z"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="35"
+                android:startY="20"
+                android:endX="165"
+                android:endY="172"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00F0FF" />
+                <item android:offset="0.3" android:color="#FF0070F3" />
+                <item android:offset="0.7" android:color="#FF8B5CF6" />
+                <item android:offset="1.0" android:color="#FFFF007F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized dynamic "B" & "IT" geometric focal mark -->
+    <!-- Left vertical bar with cyan to blue gradient -->
+    <path
+        android:pathData="M68,52 L84,52 L84,148 L68,148 Z"
+        android:fillColor="#FF00F0FF" />
+
+    <!-- Upper loop of 'B' with vibrant magenta-violet gradient -->
+    <path
+        android:pathData="M84,52 C115,52 132,64 132,82 C132,96 120,102 106,104 L106,104 C124,106 138,114 138,130 C138,148 118,148 84,148 L84,130 C106,130 118,128 118,118 C118,107 106,106 84,106 L84,94 C104,94 114,92 114,80 C114,70 104,70 84,70 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="84"
+                android:startY="52"
+                android:endX="138"
+                android:endY="148"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00D2FF" />
+                <item android:offset="0.5" android:color="#FF8B5CF6" />
+                <item android:offset="1.0" android:color="#FFFF007F" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Dynamic creative spark / starburst on top right -->
+    <path
+        android:pathData="M148,46 L152,32 L156,46 L170,50 L156,54 L152,68 L148,54 L134,50 Z"
+        android:fillColor="#FFFFD600" />
+
+    <!-- Accent beam from spark -->
+    <path
+        android:pathData="M152,50 L126,76"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFF5E00" />
+
+</vector>
